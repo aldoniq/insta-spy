@@ -1,0 +1,17 @@
+{
+    "name": "InstaSpy",
+    "description": "Opportunity to expand the capabilities of Instagram",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_title": "InstaSpy",
+      "default_popup": "/src/popup.html"
+    },
+    "host_permissions": [
+      "*://*.instagram.com/*",
+      "*://*/*"
+    ],
+    "permissions": [
+      "cookies"
+    ]
+  }
